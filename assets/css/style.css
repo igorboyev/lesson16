@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.circle {
+  fill: yellow;
+  stroke-width: 5px;
+  stroke: green;
+}
+
+.svg:hover .circle {
+  fill: black;
+  stroke: indigo;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ellipse {
+  fill: aqua;
+  stroke-width: 5px;
+  stroke: black;
+}
+
+.svg:hover .ellipse {
+  fill: purple;
+  stroke: yellow;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.rect {
+  fill: gray;
+  stroke-width: 5px;
+  stroke: violet;
+}
+
+.svg:hover .rect {
+  fill: black;
+  stroke: red;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.square {
+  fill: darkgreen;
+  stroke-width: 5px;
+  stroke: darkred;
+}
+
+.svg:hover .square {
+  fill: darkred;
+  stroke: darkgreen;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}

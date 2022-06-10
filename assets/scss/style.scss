@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.circle {
+  fill: yellow;
+  stroke-width: 5px;
+  stroke: green;
+}
+
+.svg:hover .circle {
+  fill: black;
+  stroke: indigo;
+  transition: 0.5s;
+}
+
+.ellipse {
+  fill: aqua;
+  stroke-width: 5px;
+  stroke: black;
+}
+
+.svg:hover .ellipse {
+  fill: purple;
+  stroke: yellow;
+  transition: 0.5s;
+}
+
+.rect {
+  fill: gray;
+  stroke-width: 5px;
+  stroke: violet;
+}
+
+.svg:hover .rect {
+  fill: black;
+  stroke: red;
+  transition: 0.7s;
+}
+
+.square {
+  fill: darkgreen;
+  stroke-width: 5px;
+  stroke: darkred;
+}
+
+.svg:hover .square {
+  fill: darkred;
+  stroke: darkgreen;
+  transition: 0.7s;
+}
