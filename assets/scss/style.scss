@@ -8,48 +8,52 @@ body {
 
 .circle {
   fill: yellow;
-  stroke-width: 5px;
   stroke: green;
+  stroke-width: 5px;
 }
 
 .svg:hover .circle {
+  transition: 0.5s;
+
   fill: black;
   stroke: indigo;
-  transition: 0.5s;
 }
 
 .ellipse {
   fill: aqua;
-  stroke-width: 5px;
   stroke: black;
+  stroke-width: 5px;
 }
 
 .svg:hover .ellipse {
+  transition: 0.5s;
+
   fill: purple;
   stroke: yellow;
-  transition: 0.5s;
 }
 
 .rect {
   fill: gray;
-  stroke-width: 5px;
   stroke: violet;
+  stroke-width: 5px;
 }
 
 .svg:hover .rect {
+  transition: 0.7s;
+
   fill: black;
   stroke: red;
-  transition: 0.7s;
 }
 
 .square {
   fill: darkgreen;
-  stroke-width: 5px;
   stroke: darkred;
+  stroke-width: 5px;
 }
 
 .svg:hover .square {
+  transition: 0.7s;
+
   fill: darkred;
   stroke: darkgreen;
-  transition: 0.7s;
 }
